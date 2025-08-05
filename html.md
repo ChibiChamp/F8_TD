@@ -100,3 +100,75 @@
 - section: Thể hiện 1 phần trên 1 trang web
 - article: Thể hiện 1 nội dung độc lập với các phần còn lại (Vd: sản phẩm, bài viết, bình luận,..)
 - aside: Thể hiện cột bên của trang web
+
+<!-- ===========================END=========================== -->
+
+## Các thẻ trong nhóm inline
+
+1. Thẻ chèn liên kết
+
+```
+<a href="dia-chi-trang-web">văn bản hiển thị</a>
+```
+
+Các thuộc tính khác:
+
+- target: Mục tiêu khi mở trang web
+
+* `_self`: Ở trang web hiện tại
+* `_blank`: Mở trang web mới
+
+- title: Hiển thi nội dung khi trỏ chuột
+
+../ --> lùi về 1 cấp
+../../ --> lùi về 2 cấp
+
+2. Thẻ chèn hình ảnh (img)
+
+```html
+<img src="duong-dan-anh> width="chieu-rong" height="chieu-cao" alt="Tiêu đề khi
+trỏ chuột"
+```
+
+3. Thẻ span (thẻ định dạng kiểu)
+
+- không có ý nghĩa (non-semantic)
+- nó dùng để định dạng 1 kiểu khác mà giữ yếu tố inline (trên dòng)
+
+4. thẻ in đệm,vv
+
+- In đậm: b
+- nghiêng: i
+- Ngạch chân: u
+- Gạch ngang: s
+
+- strong: Nhấn mạnh tầm quan trọng
+- em: nhấn mạnh cảm xúc, ngữ điệu
+
+5. Thẻ công thức toán học, hoá học
+
+```
+<p>C0<sub>2</sub></p>
+```
+
+```
+ <p>100m<sup>2</sup></p>
+```
+
+6. Table
+
+- Table --> Quy định bảng
+- tr --> Quy định hàng
+- td --> Quy định cột
+- th --> Quy định cột (với nội dung là tiêu đề)
+
+table -> tr -> td
+
+cellspacing: Khoảng cách giữa các ô trong bảng
+cellpadding: khoảng cách giưac các ô với nội dung
+colspan: gộp các cột
+rowspan: gộp các hàng
+
+7. Thẻ br
+
+- Thẻ ngắt dòng
