@@ -162,6 +162,12 @@ trỏ chuột"
 - td --> Quy định cột
 - th --> Quy định cột (với nội dung là tiêu đề)
 
+**Semantic**
+
+- thead --> phần đầu
+- tbody --> Phần thân
+- tfoot --> phần cuối
+
 table -> tr -> td
 
 cellspacing: Khoảng cách giữa các ô trong bảng
@@ -172,3 +178,75 @@ rowspan: gộp các hàng
 7. Thẻ br
 
 - Thẻ ngắt dòng
+
+8. Biểu mẫu (form)
+
+- Thẻ form
+
+* action: URL mà trình duyệt sẽ gửi request tới
+* method: Phương thức gửi ( Theo quy ước của http)
+  ** get: dữ liệu của form sẽ đẩy lên URL của action (Theo dạng query string)
+  ** post: Không gửi dữ liệu lên URL mà sẽ gửi ở dạng form data
+
+Lưu ý: Trường phải có name để sever nhận được dữ liệu
+
+## Các trường trong form
+
+8.1. Thẻ input --> Rất nhiều trường hợp, thay đổi bằng thuộc tính tyte
+
+- text: Mặc định, nhập cái gì cũng được
+- email: Định dạng email
+- number: Định dạng số
+- date: ngày tháng năm
+- file: Chọn file
+- radio: Lựa chọn (Chỉ chọn 1 trong 1 nhóm, Dựa vào name)
+- Checkbox: Chọn nhiều
+
+  8.2. Thẻ select
+  8.3. Thẻ textarea
+
+Giá trị mặc định
+
+- input nhập liệu: dùng value
+- Radio, Checkbox: Dùng selected ở option
+- Textarea: Thên và phần nội dung của thẻ (Giữ mở và đóng thẻ)
+
+  8.4. Thẻ button
+
+- tyte: submit --> gửi form (mặc định)
+- tyte: button --> tạo hình button
+- tyte: reset --> xoá dữ liệu của form
+
+**Tổng Kết**
+
+1. Nhập liệu 1 dòng
+
+2. Nhập liệu nhiều dòng
+
+- textarea
+
+3. Lựa chọn
+
+- file
+- date
+- radio
+- checkbox
+- select option
+
+4. Nút
+
+- Button
+
+Quy ước đặt id, class
+
+- Chữ hoa, chữ thường, số, gạch ngang, gạch dưới, dấu :
+- Không được bắt đầu bằng số
+- Dùng danh từ
+- Đặt tên bằn tiếng anh (có ý nghĩa)
+
+Với class:
+
+- Đặt được nhiều class giống nhau trên 1 trang web (Mang tính kế thừa)
+- Trong 1 thẻ html (Phần tử, element) có thể đặt nhiều class (Mỗi class cách nhau bởi khoảng trắng)
+
+  <!-- ===========================END=========================== -->
