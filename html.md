@@ -171,7 +171,7 @@ trỏ chuột"
 table -> tr -> td
 
 cellspacing: Khoảng cách giữa các ô trong bảng
-cellpadding: khoảng cách giưac các ô với nội dung
+cellpadding: khoảng cách giữa các ô với nội dung
 colspan: gộp các cột
 rowspan: gộp các hàng
 
